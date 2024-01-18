@@ -14,7 +14,7 @@
     border-color: #55569E;
 }
 
-.acordeon .idioma{
+.acordeon .acionar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,11 +27,11 @@
     border: none;
 }
 
-.acordeon .idioma:hover{
+.acordeon .acionar:hover{
     cursor: pointer;
 }
 
-.acordeon .idioma::after{
+.acordeon .acionar::after{
     content: '';
     display: inline-block;
     width: 1.5rem;
@@ -42,10 +42,13 @@
 
 }
 
-.acordeon.aberto .idioma::after{
+.acordeon.aberto .acionar::after{
     transform: rotate(180deg);
 }
 
 .acordeon .conteudo{
     display: none;
+}
+.acordeon.aberto .conteudo{
+    display: inline-block;
 }
