@@ -8,6 +8,7 @@
 
 .header::after{
     content: '';
+    background-image: url('/assets/img/icones/header.svg');
     display: inline-block;
     position: absolute;
     top: 1rem;
@@ -16,7 +17,7 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icones/header.svg');
+    
 }
 
 .header .foto{

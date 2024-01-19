@@ -15,6 +15,7 @@
 }
 
 .acordeon .acionar{
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,7 +27,6 @@
     color: #fff;
     border: none;
 }
-
 .acordeon .acionar:hover{
     cursor: pointer;
 }
@@ -39,8 +39,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('/assets/img/icones/seta.svg');
-
 }
+
 
 .acordeon.aberto .acionar::after{
     transform: rotate(180deg);
@@ -49,6 +49,7 @@
 .acordeon .conteudo{
     display: none;
 }
+
 .acordeon.aberto .conteudo{
     display: inline-block;
 }
