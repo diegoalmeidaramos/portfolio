@@ -8,7 +8,7 @@
 
 .header::after{
     content: '';
-    background-image: url('/assets/img/icones/header.svg');
+    background-image: url('portfolio/assets/img/icones/header.svg');
     display: inline-block;
     position: absolute;
     top: 1rem;
@@ -56,19 +56,19 @@
 }
 
 .informacoes .cargo::before{
-    background-image: url('/assets/img/icones/cargo.svg');
+    background-image: url('portfolio/assets/img/icones/.svg');
 }
 
 .informacoes .localizacao::before{
-    background-image: url('/assets/img/icones/localizacao.svg');
+    background-image: url('portfolio/assets/img/icones/localizacao.svg');
 }
 
 .informacoes .fone::before{
-    background-image: url('/assets/img/icones/fone.svg');
+    background-image: url('portfolio/assets/img/icones/fone.svg');
 }
 
 .informacoes .email::before{
-    background-image: url('/assets/img/icones/email.svg');
+    background-image: url('portfolio/assets/img/icones/email.svg');
 }
 
 @media only screen and (min-width: 768px) {
