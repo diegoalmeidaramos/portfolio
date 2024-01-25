@@ -55,7 +55,8 @@
 }
 
 .acordeon.aberto .conteudo{
-    display: inline-block;
+    display: block;
     height: auto;
     opacity: 1;
+    padding: 0 1rem 1rem 2rem;
 }
