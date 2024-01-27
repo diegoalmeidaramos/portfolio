@@ -8,10 +8,28 @@
     list-style: none;
 }
 
-.portfolio li{
+.portfolio li {
+    
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: flex-start;
-    margin: 1rem 0;
+    margin: 1rem 0 ;
 }
+
+.portfolio li .enunciado{
+    font-weight: 700;
+}
+.portfolio li a{
+    color: white;
+    text-decoration: none;
+}
+.portfolio li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
 
