@@ -11,6 +11,14 @@ body{
     background-color: black;
     color: #fff;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
 
 .main{
     padding: 1rem;
@@ -66,6 +74,7 @@ body{
     }
 
 }
+
 
 
 

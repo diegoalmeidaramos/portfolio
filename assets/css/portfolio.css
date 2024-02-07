@@ -36,14 +36,7 @@ background-size: contain;
 background-image: url('https://diegoalmeidaramos.github.io/portfolio/assets/img/icones/github.svg'); 
 }
 
-.portfolio li a{
-    color: white;
-    text-decoration: none;
-}
-.portfolio li a:hover{
-    color: white;
-    text-decoration: underline;
-}
+
 
 
 
