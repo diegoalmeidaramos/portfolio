@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+.experiencia li{
+    margin-bottom: 2rem;
+}
+
 .experiencia li .periodo::before{
     content: "";
     display: inline-block;
@@ -15,4 +19,8 @@
     background-size: contain;
     background-image: url('https://diegoalmeidaramos.github.io/portfolio/assets/img/icones/periodo.svg');
     margin-right: .5rem;
+}
+
+.tituloExperiencia{
+    font-weight: 600;
 }
