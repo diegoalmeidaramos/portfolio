@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.habilidades .ferramentas ul li img{
+.habilidades .ferramentas ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -12,4 +12,10 @@
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.habilidades .ferramentas ul li img{
+  max-width: 50px;
+  margin: 0.5rem;
+
 }
