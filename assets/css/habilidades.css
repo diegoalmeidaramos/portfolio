@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.habilidades .ferramentas ul{
+.habilidades .ferramentas ul li img{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
