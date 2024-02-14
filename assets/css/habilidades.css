@@ -4,6 +4,7 @@
 }
 
 .habilidades .ferramentas ul{  
+    display: grid;
     list-style:none;
     justify-content:flex-start;    
     flex-direction: row;
@@ -22,3 +23,23 @@
 
 }
 
+.habilidades .pessoal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.habilidades .pessoal ul li{
+    margin-left: 2rem;
+    padding: .5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .habilidades {
+       display: grid;
+       grid-template-columns: 1fr 1fr; 
+    }}
