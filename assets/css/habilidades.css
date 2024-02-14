@@ -1,0 +1,4 @@
+.habilidades{
+    display: flex;
+    flex-direction: column;
+}
