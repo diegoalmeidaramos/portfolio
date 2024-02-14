@@ -3,19 +3,22 @@
     flex-direction: column;
 }
 
-.habilidades .ferramentas ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+.habilidades .ferramentas ul{  
+    list-style:none;
+    justify-content:flex-start;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+
+    
+  }
 
 .habilidades .ferramentas ul li img{
   max-width: 50px;
   margin: 0.5rem;  
 
 }
+
