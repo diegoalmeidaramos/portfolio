@@ -1,6 +1,6 @@
-(async () =>{
+(async function (){
 
-    const dadosDoPerfil = BuscarDadosDoPerfil()
+    const dadosDoPerfil = await buscarDadosDoPerfil()
         console.log(dadosDoPerfil)
 
 })()
