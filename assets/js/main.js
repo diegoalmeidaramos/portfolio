@@ -7,6 +7,7 @@ function atualizarInfoPerfil(dadosDoPerfil){
    
    const cargo = document.getElementById('perfil.cargo')
     cargo.innerText = dadosDoPerfil.cargo
+    cargo.href = `https://www.linkedin.com/in/diego-ramos-6333b7262/:${dadosDoPerfil.cargo}`
    
    const localizacao = document.getElementById('perfil.localizacao')
     localizacao.innerText = dadosDoPerfil.localizacao
@@ -15,9 +16,12 @@ function atualizarInfoPerfil(dadosDoPerfil){
     fone.innerText = dadosDoPerfil.fone
     fone.href = `tel:${dadosDoPerfil.fone}`
 
-   const email = document.getElementById('perfil.email')
-    email.innerText = dadosDoPerfil.email
+    const email = document.getElementById('perfil.email')
+    email.innerText = dadosDoPerfil.email; 
     email.href = `mailto:${dadosDoPerfil.email}`
+
+
+ 
    
 
     
@@ -29,6 +33,12 @@ function atualizarInfoPerfil(dadosDoPerfil){
 
 }
 
+function atualizarHabilidadesPessoais(dadosDoPerfil){
+   const habilidades = document.getElementById('perfil.habilidades.pessoal')
+
+    habilidades.innerHTML =  dadosDoPerfil.perfil.habilidades.pessoal.map(habilidades => `<li>${habilidades}</li>`).join('')
+}
+
 
 
 
@@ -36,5 +46,5 @@ function atualizarInfoPerfil(dadosDoPerfil){
 
     const dadosDoPerfil = await buscarDadosDoPerfil()
         atualizarInfoPerfil(dadosDoPerfil)
-
+        atualizarHabilidadesPessoais(dadosDoPerfil)
 })()
