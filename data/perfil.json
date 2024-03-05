@@ -5,8 +5,8 @@
   "localizacao": "Biguaçu/SC - BR",
   "fone": "(48) 99804-4387",
   "email": "diegoalmeidapinduca@gmail.com",
-  "skills": {
-    "hardSkills": [
+  "habilidades": {
+    "ferramentas": [
       {
         "name": "Html5",
         "logo": "https://github.com/diegoalmeidaramos/portfolio/blob/main/assets/img/icones/ferramentas/html.svg"
@@ -32,7 +32,7 @@
         "logo": "https://github.com/diegoalmeidaramos/portfolio/blob/main/assets/img/icones/ferramentas/github.svg"
       }
     ],
-    "softSkills": [
+    "pessoal": [
       "Interesse em aprender coisas novas",
       "Atencioso",
       "Detalhista",
@@ -40,73 +40,73 @@
       "Organização"
     ]
   },
-  "languages": [
+  "idiomas": [
     "Português",
     "Inglês Básico"
   ],
   "portfolio": [
     {
-      "name": "Tela de login de um site de compras.",
+      "nome": "Tela de login de um site de compras.",
       "url": "https://diegoalmeidaramos.github.io/projeto-telalogin/",
       "github": true
     },
     {
-      "name": "Site cordel com efeito paralax.",
+      "nome": "Site cordel com efeito paralax.",
       "url": "https://diegoalmeidaramos.github.io/site-cordel/",
       "github": true
     },
     {
-      "name": "Modelo de página de um site de tecnologia.",
+      "nome": "Modelo de página de um site de tecnologia.",
       "url": "https://diegoalmeidaramos.github.io/site-android/",
       "github": true
     },
     {
-      "name": "Site das redes sociais.",
+      "nome": "Site das redes sociais.",
       "url": "https://diegoalmeidaramos.github.io/site-rede-sociais/",
       "github": true
     },
     {
-      "name": "Consumindo a API pokedéx.",
+      "nome": "Consumindo a API pokedéx.",
       "url": "https://diegoalmeidaramos.github.io/pokedex/",
       "github": true
     },
     {
-      "name": "Projeto To-Do-List.",
+      "nome": "Projeto To-Do-List.",
       "url": "https://diegoalmeidaramos.github.io/projeto-to-do-list/",
       "github": true
     },
     {
-      "name": "Projeto contador.",
+      "nome": "Projeto contador.",
       "url": "https://diegoalmeidaramos.github.io/projeto-contador-js/",
       "github": true
     },
     {
-      "name": "Tela de entrada de uma loja virtual.",
+      "nome": "Tela de entrada de uma loja virtual.",
       "url": "https://diegoalmeidaramos.github.io/tela-de-entrada-luki/",
       "github": true
     }
 
   ],
-  "professionalExperience": [
+  "experiencia": [
     {
-      "name": "Estudande de Análise e Desenvolvimento de Sistemas / Centro Universitário Unifatecie",
-      "period": "Dez 2022 - Jun 2025",
-      "description": "Graduando tecnólogo superior em análise e desenvolvimento de sistemas."
+      "nome": "Estudande de Análise e Desenvolvimento de Sistemas / Centro Universitário Unifatecie",
+      "periodo": "Dez 2022 - Jun 2025",
+      "descricao": "Graduando tecnólogo superior em análise e desenvolvimento de sistemas."
     },
     {
-      "name": "Montador de Móveis Planejados / Autônomo",
-      "period": "Jun - 2018 - Atualmente",
-      "description": "Montagem de móveis planejados e sob medida, móveis comuns, e fabricação de móveis."
+      "nome": "Montador de Móveis Planejados / Autônomo",
+      "periodo": "Jun - 2018 - Atualmente",
+      "descricao": "Montagem de móveis planejados e sob medida, móveis comuns, e fabricação de móveis."
     },
     {
-      "name": "Auxiliar de Montador / Mahalo Arq. e Com. de Ambientes",
-      "period": "Jul 2017 - Jun 2018",
-      "description": "Auxílio na montagem de móveis planejados e sob medida, móveis comuns, e fabricação de móveis."
+      "nome": "Auxiliar de Montador / Mahalo Arq. e Com. de Ambientes",
+      "periodo": "Jul 2017 - Jun 2018",
+      "descricao": "Auxílio na montagem de móveis planejados e sob medida, móveis comuns, e fabricação de móveis."
     },
     {
-      "name": "Auxiliar Notarial / Biguaçu Cartório de Tabelionato Público",
-      "period": "Abr 2012 - Mai 2015",
-      "description": "Atendimento ao público, receber pagamentos de titulos e protestos, dar baixas de pagamentos em sistema."
+      "nome": "Auxiliar Notarial / Biguaçu Cartório de Tabelionato Público",
+      "periodo": "Abr 2012 - Mai 2015",
+      "descricao": "Atendimento ao público, receber pagamentos de titulos e protestos, dar baixas de pagamentos em sistema."
     }
   ]
 }
