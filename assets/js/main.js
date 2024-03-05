@@ -34,12 +34,10 @@ function atualizarInfoPerfil(dadosDoPerfil){
 }
 
 function atualizarHabilidadesPessoais(dadosDoPerfil){
-   const habilidades = document.getElementById('perfil.habilidades.pessoal')
+   const habilidadesPessoais = document.getElementById('perfil.habilidades.habilidadesPessoais')
 
-    habilidades.innerHTML =  dadosDoPerfil.perfil.habilidades.pessoal.map(habilidades => `<li>${habilidades}</li>`).join('')
+    habilidadesPessoais.innerHTML =  dadosDoPerfil.habilidades.habilidadesPessoais.map(habilidade => `<li>${habilidade}</li>`).join('')
 }
-
-
 
 
 (async () => {
