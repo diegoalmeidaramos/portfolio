@@ -30,7 +30,7 @@ function atualizarHabilidadesPessoais(dadosDoPerfil){
 function atualizarHabilidadesProfissioais(dadosDoPerfil){
     const habilidadesProfissionais = document.getElementById('perfil.habilidades.habilidadesProfissionais')
  
-     habilidadesProfissionais.innerHTML =  dadosDoPerfil.habilidades.habilidadesProfissionais.map(habilidade => `<li><img src="${habilidade.logo}" alt="${habilidade.name}" title="${habilidade.name}"</li>`).join('')
+     habilidadesProfissionais.innerHTML =  dadosDoPerfil.habilidades.habilidadesProfissionais.map(habilidade => `<li><img src="${habilidade.logo}" alt="${habilidade.name}" title="${habilidade.name}"></li>`).join('')
 }
 
 (async () => {
