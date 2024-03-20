@@ -19,18 +19,6 @@ function atualizarInfoPerfil(dadosDoPerfil){
     const email = document.getElementById('perfil.email')
     email.innerText = dadosDoPerfil.email; 
     email.href = `mailto:${dadosDoPerfil.email}`
-
-
- 
-   
-
-    
-    
-    
-    
-   
-   
-
 }
 
 function atualizarHabilidadesPessoais(dadosDoPerfil){
@@ -39,10 +27,16 @@ function atualizarHabilidadesPessoais(dadosDoPerfil){
     habilidadesPessoais.innerHTML =  dadosDoPerfil.habilidades.habilidadesPessoais.map(habilidade => `<li>${habilidade}</li>`).join('')
 }
 
+function atualizarHabilidadesProfissioais(dadosDoPerfil){
+    const habilidadesProfissionais = document.getElementById('perfil.habilidades.habilidadesProfissionais')
+ 
+     habilidadesProfissionais.innerHTML =  dadosDoPerfil.habilidades.habilidadesProfissionais.map(habilidade => `<li><img src="${habilidade.logo}" alt="${habilidade.name}" title="${habilidade.name}"</li>`).join('')
+}
 
 (async () => {
 
     const dadosDoPerfil = await buscarDadosDoPerfil()
         atualizarInfoPerfil(dadosDoPerfil)
         atualizarHabilidadesPessoais(dadosDoPerfil)
+        atualizarHabilidadesProfissioais(dadosDoPerfil)
 })()
